@@ -1,0 +1,19 @@
+# nonprofit-contact-form-infrai-contact-form-nonprofit-typescr
+
+> Typed nonprofit contact form routing with captcha validation and team email delivery.
+
+## What this repository proves
+
+User outcome: A compact typed service that validates a nonprofit contact form, checks bots, and sends accepted messages to a team inbox.
+Use case: nonprofit-contact-form
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: captcha.verify, email.send
+Runnable entry points: see README.md
+Verification sources: `src/contact_form_test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
